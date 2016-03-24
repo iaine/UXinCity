@@ -1,0 +1,8 @@
+{
+  "name": "texttospeech"
+  "version": "0.0.1",
+  "dependencies": {
+    "flite": "0.1.2"
+  }
+}
+
