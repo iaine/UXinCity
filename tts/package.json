@@ -1,8 +1,11 @@
 {
-  "name": "texttospeech"
+  "name": "texttospeech",
   "version": "0.0.1",
+  "repository": "https://github.com/iaine/UXinCity",
+  "license" : "MIT",
   "dependencies": {
-    "flite": "0.1.2"
+    "flite": "0.1.2",
+    "twitter": "1.2.5"
   }
 }
 
