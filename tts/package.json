@@ -5,7 +5,8 @@
   "license" : "MIT",
   "dependencies": {
     "flite": "0.1.2",
-    "twitter": "1.2.5"
+    "twitter": "1.2.5", 
+    "sleep": "3.0.1"
   }
 }
 
