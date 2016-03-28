@@ -31,7 +31,6 @@ for (0 => int i; i < macIdx.cap();i++) {
     playRecRise(snd, macIdx[i]);
 
     if (tickCount % 2 == 0) {
-        <<< "tick" >>>;
         playTick(s);
     }
 }
@@ -56,8 +55,8 @@ fun void playRec(SndBuf snd,float f)
     1 => snd.gain;
     sampleDuration(f) => snd.freq; 
     //speed the file up or down! 1 is the normal playback speed
-    //sampleDuration(f) => snd.rate;
     (1 + (f*0.1)) => snd.rate;
+    //1 => snd.rate;
 
     (f*200)::ms => now;
 }
