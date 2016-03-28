@@ -8,4 +8,5 @@ Flite
 Aplay or Afplay
 
 Node.js
-node-flite (npm)
+flite
+twitter
